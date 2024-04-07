@@ -1,76 +1,160 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi página</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
 
-<!-- CSS propio -->
+    <!-- CSS propio -->
 
-  <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
 
-<!-- Menú desplegable -->
+    <!-- Menú desplegable -->
 
-<nav class="navbar navbar-expand-lg bg-warning">
-    <div class="container-fluid">
-      <a class="navbar-brand text-dark" href="#">Tus verderones</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon px-5">Menú</span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item mx-5">
-            <a class="nav-link active text-dark" aria-current="page" href="#">Historia</a>
-          </li>
-          <li class="nav-item mx-5">
-            <a class="nav-link text-dark" href="#">Curiosidades</a>
-          </li>
-          <li class="nav-item mx-5"> 
-            <a class="nav-link text-dark" href="#">Imágenes</a>
-          </li>
-        </ul>
-      </div>
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid">
+            <div class="contenedorLogo mx-2"><a href="https://www.ornitologiapractica.com/aves/fauna-europea/verderon-comun/" target="_blank"><img class="logo" src="../img/logo1.png"></a></div>
+            <a class="navbar-brand text-dark mx-2" href="#">Tus verderones</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon px-5">Menú</span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-5">
+                        <a class="nav-link active text-dark" aria-current="page" href="#historia">Historia</a>
+                    </li>
+                    <li class="nav-item mx-5">
+                        <a class="nav-link text-dark" aria-current="page" href="#curiosidades">Curiosidades</a>
+                    </li>
+                    <li class="nav-item mx-5">
+                        <a class="nav-link text-dark" aria-current="page" href="#More">Imágenes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Carrousel de fotos -->
+    
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block mx-auto img-fluid" src="../img/verderon1.jpeg">
+                <!-- Agrega la clase "img-fluid" para que las imágenes sean responsivas -->
+            </div>
+            <div class="carousel-item">
+                <img class="d-block mx-auto img-fluid" src="../img/verderon2.jpeg">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block mx-auto img-fluid" src="../img/verderon3.webp">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
     </div>
-  </nav>
+    
+    <br><br>
+    
+    <!-- Apartado de Historia -->
+    
+    <section id="historia">
+        <div class="Historia container-sm">
+            <!-- Contenido de la sección de historia -->
+            <h2 class="tituloHistoria">Historia</h2>
+            <p> El verderón común es un fringílido de aspecto compacto y robusto pico, que prospera en todo tipo de
+                formaciones arboladas incluso muy humanizadas, como los parques urbanos, si bien resulta particularmente
+                abundante en áreas relativamente abiertas, con bosquetes, cultivos y sotos en ambientes mediterráneos.
+                Según los datos más recientes, se trata de una especie en expansión que, no obstante, sufre las
+                consecuencias del abuso de productos fitosanitarios en la agricultura.
+            </p>
+            <br>
+            <div class="container-fluid d-flex justify-content-center">
+                <img class="nido rounded-circle" src="../img/nido.jpeg">
+            </div>
+        </div>
+    
+        <br><br>
+    
+        <div class="subSecciones container-lg text-center rounded p-4">
+            <div class="row justify-content-center align-items-start">
+                <div class="col-sm">
+                    <h4>Identificación</h4>
+                    <p class="textoInfo">
+                        El verderón común podría describirse como un “gorrión verde”. Tiene una cabeza robusta, con un pico ancho y fuerte. Destaca su coloración, verde esmeralda, con llamativas manchas amarillas en el hombro, en las plumas remeras de las alas y en la cola. 
+                        Las hembras presentan colores más discretos que los machos, pero ambos son muy parecidos. Solamente los jóvenes resultan algo distintos, pues al salir del nido tienen plumaje moteado en las partes inferiores, y el verde de su manto y cabeza es mucho más apagado que el de los adultos.
+                        Su coloración se parece a la de verderones serranos, lúganos y verdecillos, aunque el verderón común se reconoce bien por su mayor tamaño y por poseer amplias manchas amarillas en sus alas. Cuando vuela, este detalle resulta útil para distinguirlo de verdecillos, pardillos comunes y jilgueros.
+                    </p>
+                </div>
+                <div class="col-sm">
+                    <h4>Canto</h4>
+                    <p class="textoInfo">
+                        Al igual que otros fringílidos, posee diferentes reclamos y un canto nupcial muy característico. Al remontar el vuelo suele emitir un trino potente (chiri-ri-ri), pero cuando está posado, solo o en grupo, produce un chuiit algo más fuerte que el de los pinzones vulgares. 
+                        Por otra parte, los machos tienen un canto fácil de reconocer, con tres estrofas rápidas (choro- ro…, chi-ri-ri…, chuing-ching…), rematadas con un largo y profundo piído metálico (pruiiing).
+                    </p>
+                </div>
+                <div class="col-sm">
+                    <h4>Celo</h4>
+                    <p class="textoInfo">
+                        El celo de los verderones comienza pronto. Muchas parejas se han establecido ya en febrero, pero realmente no puede decirse que este pájaro sea un reproductor muy temprano, y aunque los machos realizan vuelos circulares ya en el mes de marzo, en general los primeros nidos no están construidos 
+                        hasta la última semana de abril. Nidos en marzo son regulares en algunas zonas, pero excepcionales en general. Con seguridad puede estimarse un periodo desde el 12 de abril hasta el 5 de mayo como de construcción de los primeros nidos. Utiliza para ello lugares muy variados, que van desde una 
+                        planta trepadora o la hiedra que cubre una pared hasta altos árboles, pasando por arbustos siempre verdes y pequeños o medianos árboles de adorno o sombra plantados en parques, jardines y avenidas. No hacen el nido a mucha altura, pero tampoco cerca del suelo. Habitualmente prefiere la horquilla 
+                        de una rama, y no son pocos los que están bien pegados al tronco principal. Bastante voluminoso, el nido está formado por hierba seca y musgo junto con tallos finos y forrado en su interior con fibras vegetales, raicillas, pelo y no es infrecuente encontrar también plumas o un poco de lana.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <br><br>
+    
+    <!-- Sección de curiosidades -->
+    
+    <section id="curiosidades">
+        <div class="Curiosidades container-sm">
+            <!-- Contenido de la sección de curiosidades -->
+            <h2 class="tituloHistoria">Curiosidades</h2>
+            
+    </section>
+    
+    <!-- Sección de imágenes -->
+    
+    <br><br>
+    
+    <section id="More">
+        <div class="Imagenes container-sm">
+            <!-- Contenido de la sección de imágenes -->
+            <h2 class="tituloHistoria">Imágenes</h2>
+            
+    </section>
 
-  <!-- Carrousel de fotos -->
-
-  <div id="carouselExampleIndicators" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block mx-auto img-fluid" src="../img/verderon1.jpeg"> <!-- Agrega la clase "img-fluid" para que las imágenes sean responsivas -->
-      </div>
-      <div class="carousel-item">
-        <img class="d-block mx-auto img-fluid" src="../img/verderon2.jpeg">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block mx-auto img-fluid" src="../img/verderon3.webp">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Anterior</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Siguiente</span>
-    </button>
-  </div>
-
-  <!-- Apartado de Historia -->
-
-  
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>

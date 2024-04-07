@@ -19,3 +19,28 @@
 body{
     background-color: rgb(248, 255, 188);
 }
+
+.logo{
+    height: 50px;
+}
+
+.tituloHistoria{
+    text-align: center;
+}
+
+.Historia{
+    text-align: justify;
+}
+
+.textoInfo{
+    text-align: justify;
+}
+
+.nido{
+    height: 400px;
+    border: rgb(38, 85, 33) 2px solid;
+}
+
+.subSecciones{
+    background-color: rgba(58, 121, 66, 0.3);
+}
