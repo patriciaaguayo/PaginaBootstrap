@@ -1,7 +1,8 @@
 
+/* Carrousel de fotos */
 
 .d-block{
-    height: 600px;
+    /*height: 600px;*/
 }
 
 .carousel-inner{
@@ -16,13 +17,19 @@
     color: black;
 }
 
+/* Body en general */
+
 body{
     background-color: rgb(248, 255, 188);
 }
 
+/* Navbar */
+
 .logo{
     height: 50px;
 }
+
+/* Sección de Historia */
 
 .tituloHistoria{
     text-align: center;
@@ -39,7 +46,7 @@ body{
 }
 
 .nido{
-    height: 290px;
+    height: 280px;
     border: rgb(38, 85, 33) 2px solid;
 }
 
@@ -72,4 +79,33 @@ body{
     padding: 2%;
     color: black;
     font-size: 20px;
+}
+
+/* Sección de Curiosidades */
+
+.prueba{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(5, 49, 0) 0%, rgb(11, 98, 1) 40%, rgb(24, 226, 2) 100%);
+    padding: 2%; 
+    color: white;
+}
+
+.tituloCuriosidades{
+    text-align: center;
+}
+
+.fotoC{
+    height: 600px;
+}
+
+.infoC{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+.textoInfo2{
+    padding: 2%;
 }
