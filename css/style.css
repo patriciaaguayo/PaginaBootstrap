@@ -84,8 +84,9 @@ body{
 /* Sección de Curiosidades */
 
 .prueba{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgb(5, 49, 0) 0%, rgb(11, 98, 1) 40%, rgb(24, 226, 2) 100%);
+
+    /*background: linear-gradient(90deg, rgb(5, 49, 0) 0%, rgb(11, 98, 1) 40%, rgb(24, 226, 2) 100%);*/
+    background: linear-gradient(90deg, rgb(66, 136, 9) 20%, rgb(134, 178, 47) 50%, rgb(207, 253, 115) 100%);
     padding: 2%; 
     color: white;
 }
@@ -95,17 +96,42 @@ body{
 }
 
 .fotoC{
-    height: 600px;
+    border-radius: 5%;
 }
 
 .infoC{
-    background-color: rgba(0, 0, 0, 0.5);
+   /* background-color: rgba(0, 0, 0, 0.5);*/
     color: rgb(255, 255, 255);
     font-size: 16px;
-    position: relative;
-    z-index: 1;
+    padding: 4%;
+    margin-top: 8%;
+    margin-right: 5%;
 }
 
 .textoInfo2{
-    padding: 2%;
+    text-align: justify;
 }
+
+.tCuriosidad{
+    font-size: 20px;
+}
+
+.prueba2{
+    background-image: url('../img/bosque3.jpeg');
+    background-size: cover;
+    position: relative; 
+    padding: 2%; 
+}
+
+.info2C{
+     font-size: 16px;
+     padding: 4%;
+     margin-top: 8%;
+     margin-left: 8%;
+     background-color: rgba(255, 255, 255, 0.8);
+ }
+
+ .foto2C{
+    border-radius: 5%;
+}
+ 
