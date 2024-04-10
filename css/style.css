@@ -1,10 +1,6 @@
 
 /* Carrousel de fotos */
 
-.d-block{
-    /*height: 600px;*/
-}
-
 .carousel-inner{
     background-color: rgb(214, 252, 183);
 }
@@ -134,4 +130,8 @@ body{
  .foto2C{
     border-radius: 5%;
 }
+
+/* Sección de fotos y videos */
+
+
  
