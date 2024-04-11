@@ -133,6 +133,10 @@ body{
 
 /* Sección de fotos y videos */
 
+#imagenes{
+    padding-top: 3%;
+}
+
 .card-text{
     text-align: justify;
 }
@@ -167,11 +171,26 @@ a{
 
 .CF{
     padding: 2%;
+    
 }
 
 .footer2 {
     background-color: #7e9411;
     color: white;
+}
+
+.textoFooter{
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.opcionesF{
+    text-align: center;
+}
+
+.contacto{
+    text-align: center;
+    margin-bottom: 2%;
 }
 
 
