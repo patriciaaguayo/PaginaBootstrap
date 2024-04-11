@@ -152,5 +152,27 @@ body{
     margin-left: 38%;
 }
 
+.prueba3{
+    background-image: url('../img/bosque1.jpg');
+    background-size: cover;
+    position: relative; 
+    padding: 2%; 
+}
+
+/* Footer */
+
+a{
+    color: white;
+}
+
+.CF{
+    padding: 2%;
+}
+
+.footer2 {
+    background-color: #7e9411;
+    color: white;
+}
+
 
  
