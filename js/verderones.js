@@ -1,6 +1,6 @@
 "Use strict";
 
-/*document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
     const links = document.querySelectorAll('a[href^="#"]');
     
     links.forEach(link => {
@@ -20,4 +20,4 @@
             }
         });
     });
-});*/
+});
